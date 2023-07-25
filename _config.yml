@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Building Blocks
-email: sydney.sauer@outlook.com
+title: Sydney Sauer
+email: ssauer4@jh.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Simple guides to theory and analysis in social science.
+  Personal blog tracking my progress towards a PhD in Sociology.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sydneysauer
