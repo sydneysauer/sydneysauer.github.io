@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Oh hey, Zain!"
+title:  "Zain"
 date:   2023-07-25-21:14:17 -0400
 categories: About
 ---
