@@ -1,5 +1,6 @@
 ---
 layout: home
+title:
 ---
 
 ## Welcome, it's nice to meet you! 
