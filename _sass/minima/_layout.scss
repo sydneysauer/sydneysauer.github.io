@@ -1,10 +1,22 @@
 /**
+ * Structural elements
+ */
+
+.narrow {
+  max-width: 70%;
+  margin: auto;
+  display: block;
+  @include media-query($on-palm) {
+    max-width: 80%
+  }
+}
+
+/**
  * Site header
  */
 .site-header {
   border-top: 9px solid $green-color;
-  background: $green-color-dark;
-  border-bottom: 0px solid $grey-color-light;
+  border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -14,22 +26,22 @@
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 300;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  line-height: $base-line-height * $base-font-size * 3.5;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-  color: $background-color;
+  color: $green-color-dark;
 
   &,
   &:hover {
     text-decoration: none;
-    color: $background-color;
+    color: $green-color-dark;
   }
 }
 
 .site-nav {
   float: right;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  line-height: $base-line-height * $base-font-size * 3.5;
 
   .nav-trigger {
       display: none;
@@ -40,7 +52,7 @@
   }
 
   .page-link {
-    color: $background-color;
+    color: $green-color-dark;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -196,7 +208,15 @@
   list-style: none;
 
   > li {
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit * 0.5;
+    border: 1px solid $pink-color;
+    border-left: 25px solid $pink-color;
+    padding: 10px;
+  }
+
+  > li:nth-child(odd) { 
+    border: 1px solid $pink-color-dark;
+    border-left: 25px solid $pink-color-dark;
   }
 }
 
@@ -207,7 +227,7 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  @include relative-font-size(1.2);
 }
 
 
@@ -220,11 +240,12 @@
 }
 
 .post-title {
-  @include relative-font-size(1.5);
+  @include relative-font-size(4);
   line-height: 1;
+  font-family: 'Staatliches', cursive;
 
   @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
+    @include relative-font-size(4);
   }
 }
 

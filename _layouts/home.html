@@ -6,7 +6,16 @@ layout: default
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
-
-  {{ content }}
+  <div>
+  	<img class="narrow" src="img/me.JPG">
+  </div>
+  <p>{{ content }}</p>
+  
+  <ul class="post-list">
+  	<li><a href="/about">More about me >>></a></li>
+	<li><a href="/projects">View recent projects >>></a></li>
+	<li><a href="/projects">Download most recent CV >>></a></li>
+  </ul>
+  
 
 </div>
