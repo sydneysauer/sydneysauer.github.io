@@ -4,133 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sydney Sauer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header class="main-header">
+        <h1>Sydney Sauer</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#up-next">Up Next</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Sydney Sauer</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#writing">Writing</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <section id="about">
+        <h2>About</h2>
+        <p> Hello! I am a first-year PhD student at Harvard University in the Department of Sociology. My research focuses on the reciprocal relationship between people and the structures under which they live.
+        <br><br>
+        My past research projects have focused around culture and cognition, addresssing how people form and update their beliefs about political issues, such as racial wealth gaps and fentanyl overdose.
+        <br><br>
+        I am also an aspiring science writer. I am a monthly contributor for Filter magazine, where I cover new studies about harm reduction and substance use across a wide range of academic disciplines. I'm also building a portfolio of essays and op-eds based on insights from social science.</p>
+    </section>
 
-    <!-- Hero Section -->
-    <section class="hero container-fluid" id="about">
-        <div class="container py-5 d-flex flex-wrap justify-content-between align-items-center">
-            <img src="img/headshot.JPG" alt="Profile image" class="img-fluid col-md-5">
-            <div class="hero-text col-md-6">
-                <h1>Hello, I'm Sydney Sauer</h1>
-                <p>I am a first-year PhD student at Harvard University in the Department of Sociology. Previously, I worked as a predoctoral research fellow at Johns Hopkins University. Before that, I completed my undergraduate studies in sociology and computer science at The Ohio State University.</p>
-                <p>I am interested in the relationship between people and the structures under which they live, with an emphasis on "ordinary" people and the sociology of everday life.</p>
-                <p>My past research projects have focused around culture and cognition, addresssing how people form and update their beliefs about political issues, such as racial wealth gaps and fentanyl overdose.</p>
-                <p>I am interested in expanding this line of inquiry to understand not only how people form beliefs but also how these beliefs change their actions and, in turn, how these actions change the macrostructure.</p>
-                <div class="contact-info">
-                    <p class="text-center">sydneysauer@fas.harvard.edu</p>
-                    <p class="text-center"><a href="https://www.linkedin.com/in/sydneysauer" target="blank">LinkedIn</a> | <a href="https://x.com/sydneyasauer" target="blank">Twitter</a> | <a href="https://github.com/sydneysauer" target="blank">Github</a> | <a href="https://scholar.google.com/citations?user=SihFI0oAAAAJ&hl=en" target="blank">Google Scholar</a></p>
-                </div>
-            </div>
+    <section id="work">
+        <h2>Work</h2>
+        <h3>Academic</h3>
+        <p>A space for academic contributions and publications.</p>
+        <h3>Public-Facing</h3>
+        <p>Essays, articles, and pieces intended for wider audiences.</p>
+    </section>
+
+    <section id="up-next">
+        <h2>Up Next</h2>
+        <p>Write upcoming ideas, projects, or updates here.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: [Your Email Here]</p>
+        <div class="social-links">
+            <a href="https://twitter.com">Twitter</a>
+            <a href="https://linkedin.com">LinkedIn</a>
         </div>
     </section>
 
-    <!-- Scientific Publications -->
-    <section id="publications" class="scientific-publications container-fluid py-5">
-        <div class="container">
-            <h2 class="text-center">Scientific Publications</h2>
-            <p class="fst-italic text-center">My published, peer-reviewed work.</p>
-            
-            <!-- Portfolio Item 1 -->
-            <div class="row mb-4 align-items-center justify-content-center">
-                <!-- Text Column with Background, Border, and Shadow -->
-                <div class="col-md-9">
-                    <div class="portfolio-item bg-white p-3 border rounded shadow-sm">
-                        <h3><a href="https://www.sciencedirect.com/science/article/pii/S0277953624003812" target="blank">Public stigma against fentanyl overdose decedents in the United States: A conjoint vignette experiment</a></h3>
-                        <p class="fst-italic">Social Science & Medicine, 2024</p>
-                        <p><strong>How do the victim's demographic characteristics and contexts of substance use impact public perceptions of a fatal overdose? </strong>Using a vignette survey experiment, I find that Americans lean on narratives of "personal choice" when assigning blame to overdose victims rather than employing traditional race, class, and gender stereotypes.</p>
-                        <details>
-                            <summary>Show Abstract</summary>
-                            The United States is facing a drug overdose crisis, and stigma against people who use drugs is a major roadblock to implementing solutions. Despite the public health importance of understanding and mitigating substance use stigma, prior research has focused mainly on perceptions of individuals with substance use disorders and a limited set of demographic traits. This leaves critical gaps in our understanding of stigma against fentanyl overdose decedents, who represent a much broader group, including people who use substances recreationally. This study develops a more robust understanding of these attitudes through an experimental vignette survey fielded to a national sample of American adults (n = 1432). Respondents were shown two fictional fentanyl overdose obituaries where a complex suite of decedent characteristics—including demographic traits and contexts of substance use—were randomly varied in a conjoint design. Respondents then endorsed one of the two decedents for each of several attitudinal outcomes, including blameworthiness and support for various interventions, and justified their choices in an open-ended format. Results indicate that the public assesses victims of fentanyl overdose meritocratically, making judgments based on personal history and life experience rather than traditional race, class, and gender status beliefs. While certainly a signal of progress on some fronts, this meritocratic lens conflicts with the public health model of addressing the overdose crisis and exposes the alarming persistence of explicit stigma against people who use drugs. 
-                        </details>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Non-Scientific Publications -->
-    <section id="writing" class="container-fluid py-5">
-        <div class="container">
-            <h2 class="text-center">Public Social Science Writing</h2>
-            <p class="fst-italic text-center">I love writing about research for lay audiences, and I am a contributing science writer for <a href="https://filtermag.org/author/sydney-sauer/" target="blank">Filter</a> magazine.</p>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="portfolio-item">
-                        <img src="writing1.jpg" alt="Writing 1" class="img-fluid">
-                        <h3>Title 1</h3>
-                        <p>Description of the first non-scientific publication.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio-item">
-                        <img src="writing2.jpg" alt="Writing 2" class="img-fluid">
-                        <h3>Title 2</h3>
-                        <p>Description of the second non-scientific publication.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio-item">
-                        <img src="writing3.jpg" alt="Writing 3" class="img-fluid">
-                        <h3>Title 3</h3>
-                        <p>Description of the third non-scientific publication.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Up Next Section -->
-    <section id="up-next" class="up-next container-fluid py-5">
-        <div class="container col-md-9">
-            <h2 class="text-center">Up Next</h2>
-            <p class="fst-italic text-center">Current projects & things coming down the pipeline.</p>
-            <div class="row justify-content-center p-2 tags">
-                <p class="col-md-2 col-5 under-rev">Under Review</p>
-                <p class="col-md-2 col-5 in-prep">In Preparation</p>
-                <p class="col-md-2 col-7 public-soc">Public Sociology</p>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-9">
-                    <div class="in-prep">
-                        <p><strong>(Mis)perceptions of Racial Wealth Gaps</strong><br>
-                        As a research assistant to Lauren Valentino and Nicole Yadon, I am investigating how informational interventions impact beliefs about the causes and consequences of the racial wealth gaps between Black, Hispanic, and White Americans.</p>
-                    </div>
-                    <div class="public-soc">
-                        <p><strong>Filter Magazine Column</strong><br>
-                        Each month, I will be writing a feature-length article for <a href="https://filtermag.org/" target="blank">Filter</a> magazine detailing the results of a new study pertaining to substance use. Follow along <a href="https://filtermag.org/author/sydney-sauer/" target="blank">here</a>.</p>
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer text-center py-4">
-        <div class="container">
-            <p>&copy; 2024 Sydney Sauer <br> Thanks for visiting :-)</p>
-        </div>
+    <footer>
+        <p>&copy; 2024 Sydney Sauer</p>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
