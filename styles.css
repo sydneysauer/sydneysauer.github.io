@@ -1,163 +1,99 @@
-/* Define color variables */
+/* Colors */
 :root {
-    --black: #333;
-    --secondary-color: #f4f4f4;
-    --section-bg-1: #f1f1f1; /* Different color for sections */
-    --portfolio-bg: #fff;
-    --border-color: #ddd;
-    --footer-text-color: #fff;
-    --blue: #7caffb;
-    --pink: #dc5b80;
-    --green: #33c371;
+    --blue: #A0DDFF;
+    --red: #CC2936;
+    --purple: #7E52A0;
+    --green: #0E7C7B;
+    --yellow: #F4D35E;
 }
 
-/* General Styles */
+/* General styles */
 body {
-    font-family: 'Georgia', serif;
-    background-color: var(--portfolio-bg);
-    color: var(--black);
+    font-family: 'Tahoma', sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
+    font-size: 18px; /* Larger font size */
+    color: #333;
 }
 
-h1, h2, h3 {
-    color: var(--black);
-}
-
-p, details {
-    color: #444;
-}
-
-/* Sticky Menu Bar */
-.navbar {
-    padding: 1rem 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: var(--border-color);
-}
-
-.navbar-nav .nav-link {
-    color: var(--black);
-    font-size: 1.1rem;
-}
-
-.navbar-nav .nav-link:hover {
-    color: #222;
-}
-
-/* Hero Section */
-.hero {
-    padding: 100px 0;
-}
-
-.hero img {
-    max-width: 100%;
-    height: auto;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
-}
-
-/* Portfolio Section */
-.portfolio {
-    padding-bottom: 50px;
-}
-
-.scientific-publications {
-    background-color: var(--section-bg-1);
-}
-
-/* Portfolio Item Styles */
-.portfolio-item {
-    background-color: white;
-    border: 1px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    padding: 20px;
-}
-
-
-.portfolio-img {
-    width: 100%;       /* Ensure the image takes the full width of its container */
-    object-fit: contain; /* Makes the image cover the container without distortion */
-}
-
-.image-container {
-    height: 100%; /* Match the height of the container */
-    overflow: hidden; /* Hide overflow to cut off excess image */
-}
-
-.image-container img {
-    height: 100%; /* Make the image fill the container's height */
-    width: 50%;  /* Make the image responsive */
-    object-fit: cover; /* Ensures the image covers the area without stretching */
-}
-
-.portfolio-item h3 {
-    margin-top: 15px;
-    font-size: 1.5rem;
-    color: var(--black);
-}
-
-.portfolio-item p {
-    font-size: 1rem;
-    color: #555;
-}
-
-/* Up Next Section */
-.tags p {
-    color: white;
-    padding: 7px;
-    border-radius: 5px;
-    font-weight: bolder;
+header {
+    text-transform: uppercase;
+    padding: 1rem;
+    padding-top: 2rem;
     text-align: center;
-    margin: 7px;
 }
 
-p.in-prep {
-    background-color: var(--pink);
-    color:white;
+header h1 {
+    margin: 0;
+    font-size: 3.5rem;
 }
 
-div.in-prep {
-    border-left: 10px solid var(--pink);
-    padding-left: 10px;
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    color: var(--yellow);
 }
 
-p.public-soc {
-    background-color: var(--blue);
-    color:white;
+nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 2vw;
+    color: var(--green);
+    border-bottom: 8px solid var(--green);
 }
 
-div.public-soc {
-    border-left: 10px solid var(--blue);
-    padding-left: 10px;
+
+
+section {
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 800px;
 }
 
-p.under-rev {
-    background-color: var(--green);
-    color:white;
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
 }
 
-div.under-rev {
-    border-left: 10px solid var(--green);
-    padding-left: 10px;
+footer {
+    text-align: center;
+    background: var(--green);
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
 }
 
-/* Footer */
-.footer {
-    background-color: var(--border-color);
-    color: var(--footer-text-color);
-}
-
-.footer {
-    color: var(--footer-text-color);
+.social-links a {
+    display: inline-block;
+    margin-right: 1rem;
     text-decoration: none;
 }
 
-.footer a:hover {
-    text-decoration: underline;
+.main-header {
+    text-align: center;
+    padding: 2rem 1rem;
 }
+
+.main-header img {
+    width: 90vw;
+    max-width: 300px; /* caps size on desktop */
+    height: auto;
+    margin-bottom: 1rem;
+    border: 8px solid var(--green);
+}
+
+@media (min-width: 768px) {
+    .main-header img {
+        width: 30vw;
+        max-width: 300px;
+    }
+}
+
 
 
 
