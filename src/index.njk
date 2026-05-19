@@ -10,11 +10,10 @@ description: A writing portfolio featuring essays, criticism, and reported work.
 <section class="intro-section">
   <div class="container intro-grid">
     <div class="intro-copy">
-      <p class="eyebrow">Writing Portfolio</p>
       <h1>{{ site.name }}</h1>
-      <p class="lede">{{ site.tagline }}</p>
-      <p class="intro-text">I write about memory, culture, place, and the quiet details that shape ordinary life. This portfolio gathers selected pieces published across the web.</p>
-      <a class="button-link" href="#writing">Read selected work</a>
+      <p class="lede">I'm a freelance writer exploring scientific discoveries and the people behind them.</p>
+      <p class="intro-text">From feature stories to research explainers, I dig into the latest developments in social science and extract what matters most. My work translates big ideas into interesting stories and actionable insights.</p>
+      <a class="button-link" href="#writing">Read my work</a>
     </div>
     <div class="headshot-card" aria-label="Portrait area">
       <img src="{{ site.headshot | url }}" alt="Headshot of {{ site.name }}">
@@ -31,7 +30,7 @@ description: A writing portfolio featuring essays, criticism, and reported work.
         <img src="{{ featured.photo | url }}" alt="">
       </a>
       <div class="featured-content">
-        <time datetime="{{ featured.publicationDate }}">{{ featured.publicationDate | readableDate }}</time>
+        <p><time datetime="{{ featured.publicationDate }}">{{ featured.publicationDate | readableDate }}</time> | {{ featured.outlet }}</p>
         <h3><a href="{{ featured.link }}" target="_blank" rel="noopener noreferrer">{{ featured.title }}</a></h3>
         <p>{{ featured.blurb }}</p>
         <a class="text-link" href="{{ featured.link }}" target="_blank" rel="noopener noreferrer">Read article</a>
@@ -51,8 +50,8 @@ description: A writing portfolio featuring essays, criticism, and reported work.
           <img src="{{ article.photo | url }}" alt="">
         </a>
         <div class="article-content">
-          <time datetime="{{ article.publicationDate }}">{{ article.publicationDate | readableDate }}</time>
-          <h3><a href="{{ article.link }}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a></h3>
+        <p><time datetime="{{ article.publicationDate }}">{{ article.publicationDate | readableDate }}</time> | {{ article.outlet }}</p>          
+        <h3><a href="{{ article.link }}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a></h3>
           <p>{{ article.blurb }}</p>
         </div>
       </article>
@@ -69,8 +68,14 @@ description: A writing portfolio featuring essays, criticism, and reported work.
 <section class="about-section" id="about" aria-labelledby="about-heading">
   <div class="container about-inner">
     <p class="eyebrow">About Me</p>
-    <h2 id="about-heading">A brief introduction</h2>
-    <p>Use this space for a concise bio: who you are, what you write about, where your work has appeared, and what kinds of assignments or collaborations you are open to.</p>
-    <p>Keep it warm and specific. Mention a few recurring interests, your current location if relevant, and a professional contact route.</p>
+    <h2 id="about-heading">Allow me to introduce myself.</h2>
+    <p>I've been writing as long as I can remember. I started my career writing manufacturing advertising copy for SEO content mills as a teenager, and I quickly got hooked on the feeling of finding just the right words to clearly express technical ideas. In college, I wrote email newsletters for the coding education company <a href="https://levelup.video/" target="_blank" rel="noopener noreferrer">Level Up Tutorials</a> and investigated local history questions for Central Ohio's NPR newsroom, <a href="https://www.wosu.org/people/sydney-sauer" target="_blank" rel="noopener noreferrer">WOSU Public Media</a>.
+    <br><br>
+    Now, as a sociology PhD student at Harvard University, I'm still writing. My monthly column at <a href="https://filtermag.org/author/sydney-sauer/" target="_blank" rel="noopener noreferrer">Filter Magazine</a> covers the latest scientific studies on harm reduction and overdose prevention. I'm also a freelance writer for <a href="https://gsas.harvard.edu/news" target="_blank" rel="noopener noreferrer">Harvard's Graduate School of Arts and Sciences</a>, where I write interview-driven profiles of notable students and alumni.
+    <br><br>
+    Because I just can't get enough, my PhD research also focuses on science communication media, investigating both how it's created and how people respond to it.
+    <br><br>
+    Want to connect? You can reach me at <a href="mailto:sydneysauer@fas.harvard.edu">sydneysauer@fas.harvard.edu</a>.
+    </p>
   </div>
 </section>

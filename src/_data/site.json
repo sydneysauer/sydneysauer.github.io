@@ -1,9 +1,9 @@
 {
-  "name": "Your Name",
-  "tagline": "Essays, criticism, and reported work.",
-  "description": "A clean, literary writing portfolio.",
+  "name": "Sydney Sauer",
+  "tagline": "Covering scientific breakthroughs and the people behind them.",
+  "description": "Sydney Sauer's writing portfolio.",
   "url": "https://yourusername.github.io/your-repo-name/",
-  "author": "Your Name",
-  "email": "you@example.com",
+  "author": "Sydney Sauer",
+  "email": "sydneysauer@fas.harvard.edu",
   "headshot": "/images/headshot.jpg"
 }

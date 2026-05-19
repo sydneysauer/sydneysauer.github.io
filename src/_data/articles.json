@@ -1,16 +1,7 @@
 [
 {
-"title": "Partnering With Methadone Clinics “Transforms” Hep C Care, Study Finds",
-"blurb": "Reports on a study showing that offering hepatitis C treatment through opioid treatment programs can improve access for people who use opioids.",
-"publicationDate": "2026-04-23",
-"outlet": "Filter",
-"photo": "/images/article-memory.jpg",
-"link": "https://filtermag.org/hepatitis-c-opioid-treatment-programs/",
-"status": "displayed"
-},
-{
 "title": "Why Is Autism More Common in Males?",
-"blurb": "Profiles research into how X chromosome genes may reduce female risk for autism and potentially protect against other developmental disorders.",
+"blurb": "Harvard researcher Maya Talukdar argues that X chromosome genes reduce female risk for autism and potentially protect against other developmental disorders.",
 "publicationDate": "2026-03-27",
 "outlet": "Harvard University",
 "photo": "/images/article-memory.jpg",
@@ -19,16 +10,34 @@
 },
 {
 "title": "Primary Care “Opioid Risk Scores” Poorly Predict Individual OD Risk",
-"blurb": "Reports on an external evaluation finding that an opioid risk score used in primary care poorly predicted individual overdose or opioid use disorder risk.",
+"blurb": "External evaluation finds that an opioid risk score used in primary care poorly predicts individual overdose or opioid use disorder risk.",
 "publicationDate": "2026-03-26",
 "outlet":"Filter",
 "photo": "/images/article-memory.jpg",
 "link": "https://filtermag.org/ai-opioid-risk-score-evaluation/",
-"status": "hidden"
+"status": "displayed"
+},
+{
+"title": "Partnering With Methadone Clinics “Transforms” Hep C Care, Study Finds",
+"blurb": "A randomized controlled trial concluded that offering hepatitis C treatment within opioid treatment programs greatly improved access and outcomes.",
+"publicationDate": "2026-04-23",
+"outlet": "Filter",
+"photo": "/images/article-memory.jpg",
+"link": "https://filtermag.org/hepatitis-c-opioid-treatment-programs/",
+"status": "displayed"
+},
+{
+"title": "Fighting Breast Cancer in Rural America",
+"blurb": "Jen Cruz's PhD research examines how more precise approaches could improve breast cancer screening and public health interventions in rural communities.",
+"publicationDate": "2025-11-25",
+"outlet": "Harvard University",
+"photo": "/images/article-memory.jpg",
+"link": "https://gsas.harvard.edu/news/redefining-rurality",
+"status": "displayed"
 },
 {
 "title": "Campus Harm Reduction Fueled by Student Advocacy, Some State Policies",
-"blurb": "Looks at how student advocacy and state policies have expanded harm reduction resources on college campuses.",
+"blurb": "Together, student advocacy and state policies have expanded harm reduction resources on college campuses.",
 "publicationDate": "2026-02-26",
 "outlet": "Filter",
 "photo": "/images/article-memory.jpg",
@@ -37,173 +46,164 @@
 },
 {
 "title": "Discontinued Canadian Safe Supply Program Was Working, Study Shows",
-"blurb": "Reports on research suggesting that a discontinued Canadian safer supply program was producing positive outcomes.",
+"blurb": "A discontinued Canadian safer supply program was producing positive outcomes, according to a new study.",
 "publicationDate": "2026-01-22",
 "outlet": "Filter",
 "photo": "/images/article-memory.jpg",
 "link": "https://filtermag.org/canada-safe-supply-study/",
-"featured": false
-},
-{
-"title": "Naloxone Boxes: New Strategy Makes OD Antidote Accessible 24/7, for Free",
-"blurb": "Covers naloxone box programs that make overdose reversal medication freely available in public spaces around the clock.",
-"publicationDate": "2025-12-30",
-"outlet": "Filter",
-"photo": "/images/article-memory.jpg",
-"link": "https://filtermag.org/naloxone-boxes/",
-"featured": false
-},
-{
-"title": "To Move Beyond Abstinence-Only, We Need Better Tools to Measure Recovery",
-"blurb": "Examines the need for more holistic, person-centered tools to measure recovery from substance use disorder beyond abstinence alone.",
-"publicationDate": "2025-12-01",
-"outlet": "Filter",
-"photo": "/images/article-memory.jpg",
-"link": "https://filtermag.org/beyond-abstinence-only-measure-recovery/",
-"featured": false
-},
-{
-"title": "Fighting Breast Cancer in Rural America",
-"blurb": "Profiles research on the diversity of rural communities and how more precise approaches could improve breast cancer screening and public health interventions.",
-"publicationDate": "2025-11-25",
-"outlet": "Harvard University",
-"photo": "/images/article-memory.jpg",
-"link": "https://gsas.harvard.edu/news/redefining-rurality",
-"featured": false
-},
-{
-"title": "Drug Testing Defeats the Purpose of “Second Chance” Hiring",
-"blurb": "Explores how workplace drug testing can undermine second-chance hiring efforts for people with prior convictions.",
-"publicationDate": "2025-10-22",
-"outlet": "Filter",
-"photo": "/images/article-memory.jpg",
-"link": "https://filtermag.org/drug-testing-defeats-the-purpose-of-second-chance-hiring/",
-"featured": false
-},
-{
-"title": "Indigenous OD Mortality Plummets in Minnesota, But Disparity Remains",
-"blurb": "Reports on a decline in Indigenous overdose mortality in Minnesota while noting that major disparities persist.",
-"publicationDate": "2025-09-22",
-"outlet": "Filter",
-"photo": "/images/article-memory.jpg",
-"link": "https://filtermag.org/indigenous-overdose-disparity-minnesota/",
-"featured": false
-},
-{
-"title": "Tennessee Harm Reductionist Faces Charges for Drug Checking",
-"blurb": "Covers the arrest of a Tennessee harm reductionist and the legal risks facing people involved in drug checking work.",
-"publicationDate": "2025-08-19",
-"outlet": "Filter",
-"photo": "/images/article-memory.jpg",
-"link": "https://filtermag.org/tennessee-harm-reductionist-arrested-drug-checking/",
-"featured": false
-},
-{
-"title": "People Seeking Methadone or Bupe Face “More Stress Than You Know”",
-"blurb": "Reports on the barriers and stress people face when trying to access methadone or buprenorphine treatment.",
-"publicationDate": "2025-07-22",
-"outlet": "Filter",
-"photo": "/images/article-memory.jpg",
-"link": "https://filtermag.org/seeking-methadone-buprenorphine-barriers/",
-"featured": false
-},
-{
-"title": "Harm Reduction Vending Machines Work, Says 30 Years of Research",
-"blurb": "Summarizes decades of research on harm reduction vending machines and their role in expanding access to supplies.",
-"publicationDate": "2025-06-30",
-"outlet": "Filter",
-"photo": "/images/article-memory.jpg",
-"link": "https://filtermag.org/harm-reduction-vending-machine/",
-"featured": false
-},
-{
-"title": "Music Festival Attendees Embrace DIY Drug Checking Despite Barriers",
-"blurb": "Explores how music festival attendees use do-it-yourself drug checking methods despite practical and legal barriers.",
-"publicationDate": "2025-05-22",
-"outlet": "Filter",
-"photo": "/images/article-memory.jpg",
-"link": "https://filtermag.org/music-festival-drug-checking/",
-"featured": false
-},
-{
-"title": "Test Strips Do Tell You If Xylazine Is Present, But Prone to False Positives",
-"blurb": "Reviews research on xylazine test strips, finding that they can detect xylazine but may also produce false positives.",
-"publicationDate": "2025-05-01",
-"outlet": "Filter",
-"photo": "/images/article-memory.jpg",
-"link": "https://filtermag.org/xylazine-test-strips-accuracy/",
-"featured": false
-},
-{
-"title": "Secret Shoppers Struggle to Buy Naloxone, Syringes at Texas Pharmacies",
-"blurb": "Reports on a study using secret shoppers to test access to over-the-counter naloxone and non-prescription syringes in Texas pharmacies.",
-"publicationDate": "2025-03-25",
-"outlet": "Filter",
-"photo": "/images/article-memory.jpg",
-"link": "https://filtermag.org/secret-shopper-pharmacies-naloxone-syringes/",
-"featured": false
-},
-{
-"title": "Community “Bad Batch” Alerts Contrast With Algorithmic OD Prevention",
-"blurb": "Compares grassroots bad-batch alert systems with algorithmic overdose prevention approaches.",
-"publicationDate": "2025-03-03",
-"outlet": "Filter",
-"photo": "/images/article-memory.jpg",
-"link": "https://filtermag.org/overdose-prevention-bad-batch-alerts-algorithm/",
-"featured": false
-},
-{
-"title": "What’s in the Drug “Strips” Common in Prisons and Jails?",
-"blurb": "Explains the substances found in drug-soaked paper strips in prisons and jails and what research reveals about their risks.",
-"publicationDate": "2025-01-30",
-"outlet": "Filter",
-"photo": "/images/article-memory.jpg",
-"link": "https://filtermag.org/drug-strips-prisons-jails-research/",
-"featured": false
-},
-{
-"title": "In Rural Areas, People Who Use Drugs Face Particularly Severe Housing Crisis",
-"blurb": "Reports on research showing high rates of homelessness among rural people who use unregulated opioids or inject drugs.",
-"publicationDate": "2025-01-06",
-"outlet": "Filter",
-"photo": "/images/article-memory.jpg",
-"link": "https://filtermag.org/rural-homelessness-people-who-use-drugs/",
-"featured": false
-},
-{
-"title": "BC Drug-Decrim Study Explores Problems With 2.5-Gram Threshold",
-"blurb": "Covers research on British Columbia’s drug decriminalization policy and concerns about its possession threshold.",
-"publicationDate": "2024-11-25",
-"outlet": "Filter",
-"photo": "/images/article-memory.jpg",
-"link": "https://filtermag.org/bc-drug-decriminalization-study/",
-"featured": false
-},
-{
-"title": "Safer Drug Supply on the Dark Web? It’s Complicated, Researchers Find",
-"blurb": "Looks at research on whether buying drugs on the dark web may reduce some risks while introducing other complications.",
-"publicationDate": "2024-10-25",
-"outlet": "Filter",
-"photo": "/images/article-memory.jpg",
-"link": "https://filtermag.org/dark-web-drug-supply-safer-study/",
-"featured": false
-},
-{
-"title": "Obituaries Experiment Highlights Stigma Against Overdose Victims",
-"blurb": "Examines how stigma affects the way overdose deaths are described and remembered in obituaries.",
-"publicationDate": "2024-09-10",
-"outlet": "Filter",
-"photo": "/images/article-memory.jpg",
-"link": "https://filtermag.org/overdose-stigma-obituaries-experiment/",
-"featured": false
+"status": "hidden"
 },
 {
 "title": "Aviation prodigy Cromwell Dixon's career took flight over Columbus",
-"blurb": "Traces the Columbus roots of aviation prodigy Cromwell Dixon, who became the first person to fly across the Continental Divide.",
+"blurb": "The first person to fly across the Continental Divide built his airships right by Ohio State's campus—and he was just a teenager.",
 "publicationDate": "2022-03-08",
 "outlet": "WOSU Public Media",
 "photo": "/images/article-memory.jpg",
 "link": "https://www.wosu.org/2022-03-08/aviation-prodigy-cromwell-dixons-career-took-flight-over-columbus",
-"featured": false
+"status": "displayed"
+},
+{
+"title": "Naloxone Boxes: New Strategy Makes OD Antidote Accessible 24/7, for Free",
+"blurb": "Inexpensive naloxone box programs make overdose reversal medication freely available in public spaces around the clock.",
+"publicationDate": "2025-12-30",
+"outlet": "Filter",
+"photo": "/images/article-memory.jpg",
+"link": "https://filtermag.org/naloxone-boxes/",
+"status": "displayed"
+},
+{
+"title": "To Move Beyond Abstinence-Only, We Need Better Tools to Measure Recovery",
+"blurb": "It's time to develop more holistic, person-centered tools to measure recovery from substance use disorder.",
+"publicationDate": "2025-12-01",
+"outlet": "Filter",
+"photo": "/images/article-memory.jpg",
+"link": "https://filtermag.org/beyond-abstinence-only-measure-recovery/",
+"status": "hidden"
+},
+{
+"title": "Drug Testing Defeats the Purpose of “Second Chance” Hiring",
+"blurb": "Workplace drug testing can undermine second-chance hiring efforts for people with prior convictions.",
+"publicationDate": "2025-10-22",
+"outlet": "Filter",
+"photo": "/images/article-memory.jpg",
+"link": "https://filtermag.org/drug-testing-defeats-the-purpose-of-second-chance-hiring/",
+"status": "hidden"
+},
+{
+"title": "Indigenous OD Mortality Plummets in Minnesota, But Disparity Remains",
+"blurb": "There's been a decline in Indigenous overdose mortality in Minnesota, but major disparities persist.",
+"publicationDate": "2025-09-22",
+"outlet": "Filter",
+"photo": "/images/article-memory.jpg",
+"link": "https://filtermag.org/indigenous-overdose-disparity-minnesota/",
+"status": "hidden"
+},
+{
+"title": "Tennessee Harm Reductionist Faces Charges for Drug Checking",
+"blurb": "A Tennessee harm reductionist was arrested for drug checking, showing the legal risks facing people involved in drug checking work.",
+"publicationDate": "2025-08-19",
+"outlet": "Filter",
+"photo": "/images/article-memory.jpg",
+"link": "https://filtermag.org/tennessee-harm-reductionist-arrested-drug-checking/",
+"status": "hidden"
+},
+{
+"title": "People Seeking Methadone or Bupe Face “More Stress Than You Know”",
+"blurb": "A new study reports on the barriers people face when trying to access substance use disorder treatment.",
+"publicationDate": "2025-07-22",
+"outlet": "Filter",
+"photo": "/images/article-memory.jpg",
+"link": "https://filtermag.org/seeking-methadone-buprenorphine-barriers/",
+"status": "hidden"
+},
+{
+"title": "Harm Reduction Vending Machines Work, Says 30 Years of Research",
+"blurb": "A new meta-analysis synthesizes decades of research on harm reduction vending machines—and finds encouraging results.",
+"publicationDate": "2025-06-30",
+"outlet": "Filter",
+"photo": "/images/article-memory.jpg",
+"link": "https://filtermag.org/harm-reduction-vending-machine/",
+"status": "hidden"
+},
+{
+"title": "Music Festival Attendees Embrace DIY Drug Checking Despite Barriers",
+"blurb": "At Colorado's Sonic Bloom festival, attendees use do-it-yourself drug checking methods despite practical and legal barriers.",
+"publicationDate": "2025-05-22",
+"outlet": "Filter",
+"photo": "/images/article-memory.jpg",
+"link": "https://filtermag.org/music-festival-drug-checking/",
+"status": "hidden"
+},
+{
+"title": "Test Strips Do Tell You If Xylazine Is Present, But Prone to False Positives",
+"blurb": "New research finds that xylazine test strips reliably detect xylazine but may also produce false positives.",
+"publicationDate": "2025-05-01",
+"outlet": "Filter",
+"photo": "/images/article-memory.jpg",
+"link": "https://filtermag.org/xylazine-test-strips-accuracy/",
+"status": "hidden"
+},
+{
+"title": "Secret Shoppers Struggle to Buy Naloxone, Syringes at Texas Pharmacies",
+"blurb": "A harrowing new study sent secret shoppers to test access to over-the-counter naloxone and non-prescription syringes in Texas pharmacies.",
+"publicationDate": "2025-03-25",
+"outlet": "Filter",
+"photo": "/images/article-memory.jpg",
+"link": "https://filtermag.org/secret-shopper-pharmacies-naloxone-syringes/",
+"status": "hidden"
+},
+{
+"title": "Community “Bad Batch” Alerts Contrast With Algorithmic OD Prevention",
+"blurb": "Grassroots alert systems and algorithmic overdose prevention approaches must learn to coexist.",
+"publicationDate": "2025-03-03",
+"outlet": "Filter",
+"photo": "/images/article-memory.jpg",
+"link": "https://filtermag.org/overdose-prevention-bad-batch-alerts-algorithm/",
+"status": "hidden"
+},
+{
+"title": "What’s in the Drug “Strips” Common in Prisons and Jails?",
+"blurb": "Chemical analysis offers clues about the drug-soaked paper strips—and their risks.",
+"publicationDate": "2025-01-30",
+"outlet": "Filter",
+"photo": "/images/article-memory.jpg",
+"link": "https://filtermag.org/drug-strips-prisons-jails-research/",
+"status": "hidden"
+},
+{
+"title": "In Rural Areas, People Who Use Drugs Face Particularly Severe Housing Crisis",
+"blurb": "Research finds exceptionally high rates of homelessness among rural people who use unregulated opioids or inject drugs.",
+"publicationDate": "2025-01-06",
+"outlet": "Filter",
+"photo": "/images/article-memory.jpg",
+"link": "https://filtermag.org/rural-homelessness-people-who-use-drugs/",
+"status": "hidden"
+},
+{
+"title": "BC Drug-Decrim Study Explores Problems With 2.5-Gram Threshold",
+"blurb": "British Columbia’s drug decriminalization policy has an inadequate possession threshold, research finds.",
+"publicationDate": "2024-11-25",
+"outlet": "Filter",
+"photo": "/images/article-memory.jpg",
+"link": "https://filtermag.org/bc-drug-decriminalization-study/",
+"status": "hidden"
+},
+{
+"title": "Safer Drug Supply on the Dark Web? It’s Complicated, Researchers Find",
+"blurb": "Buying drugs on the dark web may reduce some risks, but it depends—on a lot.",
+"publicationDate": "2024-10-25",
+"outlet": "Filter",
+"photo": "/images/article-memory.jpg",
+"link": "https://filtermag.org/dark-web-drug-supply-safer-study/",
+"status": "hidden"
+},
+{
+"title": "Obituaries Experiment Highlights Stigma Against Overdose Victims",
+"blurb": "Stigma affects the way overdose deaths are described and remembered in obituaries.",
+"publicationDate": "2024-09-10",
+"outlet": "Filter",
+"photo": "/images/article-memory.jpg",
+"link": "https://filtermag.org/overdose-stigma-obituaries-experiment/",
+"status": "hidden"
 }
 ]
