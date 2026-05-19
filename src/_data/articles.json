@@ -4,7 +4,7 @@
 "blurb": "Harvard researcher Maya Talukdar argues that X chromosome genes reduce female risk for autism and potentially protect against other developmental disorders.",
 "publicationDate": "2026-03-27",
 "outlet": "Harvard University",
-"photo": "/images/article-memory.jpg",
+"photo": "/images/autism.jpg",
 "link": "https://gsas.harvard.edu/news/why-autism-more-common-males",
 "status": "featured"
 },
@@ -13,17 +13,8 @@
 "blurb": "External evaluation finds that an opioid risk score used in primary care poorly predicts individual overdose or opioid use disorder risk.",
 "publicationDate": "2026-03-26",
 "outlet":"Filter",
-"photo": "/images/article-memory.jpg",
+"photo": "/images/risk_score.png",
 "link": "https://filtermag.org/ai-opioid-risk-score-evaluation/",
-"status": "displayed"
-},
-{
-"title": "Partnering With Methadone Clinics “Transforms” Hep C Care, Study Finds",
-"blurb": "A randomized controlled trial concluded that offering hepatitis C treatment within opioid treatment programs greatly improved access and outcomes.",
-"publicationDate": "2026-04-23",
-"outlet": "Filter",
-"photo": "/images/article-memory.jpg",
-"link": "https://filtermag.org/hepatitis-c-opioid-treatment-programs/",
 "status": "displayed"
 },
 {
@@ -31,8 +22,17 @@
 "blurb": "Jen Cruz's PhD research examines how more precise approaches could improve breast cancer screening and public health interventions in rural communities.",
 "publicationDate": "2025-11-25",
 "outlet": "Harvard University",
-"photo": "/images/article-memory.jpg",
+"photo": "/images/wapato.jpg",
 "link": "https://gsas.harvard.edu/news/redefining-rurality",
+"status": "displayed"
+},
+{
+"title": "Partnering With Methadone Clinics Transforms Hep C Care, Study Finds",
+"blurb": "A randomized controlled trial concluded that offering hepatitis C treatment within opioid treatment programs greatly improved access and outcomes.",
+"publicationDate": "2026-04-23",
+"outlet": "Filter",
+"photo": "/images/hepc.png",
+"link": "https://filtermag.org/hepatitis-c-opioid-treatment-programs/",
 "status": "displayed"
 },
 {
@@ -40,7 +40,7 @@
 "blurb": "Together, student advocacy and state policies have expanded harm reduction resources on college campuses.",
 "publicationDate": "2026-02-26",
 "outlet": "Filter",
-"photo": "/images/article-memory.jpg",
+"photo": "/images/campus.png",
 "link": "https://filtermag.org/campus-harm-reduction/",
 "status": "displayed"
 },
@@ -58,7 +58,7 @@
 "blurb": "The first person to fly across the Continental Divide built his airships right by Ohio State's campus—and he was just a teenager.",
 "publicationDate": "2022-03-08",
 "outlet": "WOSU Public Media",
-"photo": "/images/article-memory.jpg",
+"photo": "/images/dixon.webp",
 "link": "https://www.wosu.org/2022-03-08/aviation-prodigy-cromwell-dixons-career-took-flight-over-columbus",
 "status": "displayed"
 },
@@ -67,7 +67,7 @@
 "blurb": "Inexpensive naloxone box programs make overdose reversal medication freely available in public spaces around the clock.",
 "publicationDate": "2025-12-30",
 "outlet": "Filter",
-"photo": "/images/article-memory.jpg",
+"photo": "/images/naloxone.png",
 "link": "https://filtermag.org/naloxone-boxes/",
 "status": "displayed"
 },
