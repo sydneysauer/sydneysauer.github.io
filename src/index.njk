@@ -1,0 +1,76 @@
+---
+layout: base.njk
+title: Home
+description: A writing portfolio featuring essays, criticism, and reported work.
+---
+{% set featuredArticles = articles | where("status", "featured") %}
+{% set featured = featuredArticles[0] %}
+{% set regularArticles = articles | where("status", "displayed") %}
+
+<section class="intro-section">
+  <div class="container intro-grid">
+    <div class="intro-copy">
+      <p class="eyebrow">Writing Portfolio</p>
+      <h1>{{ site.name }}</h1>
+      <p class="lede">{{ site.tagline }}</p>
+      <p class="intro-text">I write about memory, culture, place, and the quiet details that shape ordinary life. This portfolio gathers selected pieces published across the web.</p>
+      <a class="button-link" href="#writing">Read selected work</a>
+    </div>
+    <div class="headshot-card" aria-label="Portrait area">
+      <img src="{{ site.headshot | url }}" alt="Headshot of {{ site.name }}">
+    </div>
+  </div>
+</section>
+
+{% if featured %}
+<section class="featured-section" aria-labelledby="featured-heading">
+  <div class="container">
+    
+    <article class="featured-article">
+      <a class="featured-image" href="{{ featured.link }}" target="_blank" rel="noopener noreferrer">
+        <img src="{{ featured.photo | url }}" alt="">
+      </a>
+      <div class="featured-content">
+        <time datetime="{{ featured.publicationDate }}">{{ featured.publicationDate | readableDate }}</time>
+        <h3><a href="{{ featured.link }}" target="_blank" rel="noopener noreferrer">{{ featured.title }}</a></h3>
+        <p>{{ featured.blurb }}</p>
+        <a class="text-link" href="{{ featured.link }}" target="_blank" rel="noopener noreferrer">Read article</a>
+      </div>
+    </article>
+  </div>
+</section>
+{% endif %}
+
+<section class="writing-section" id="writing" aria-labelledby="writing-heading">
+  <div class="container">
+    
+    <div class="article-grid">
+      {% for article in regularArticles %}
+      <article class="article-card">
+        <a class="article-image" href="{{ article.link }}" target="_blank" rel="noopener noreferrer">
+          <img src="{{ article.photo | url }}" alt="">
+        </a>
+        <div class="article-content">
+          <time datetime="{{ article.publicationDate }}">{{ article.publicationDate | readableDate }}</time>
+          <h3><a href="{{ article.link }}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a></h3>
+          <p>{{ article.blurb }}</p>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+
+     <p class="see-all" style="text-align: center;">
+      <a href="/all" class="see-all-link">See all articles →</a>
+    </p>
+
+  </div>
+</section>
+
+<section class="about-section" id="about" aria-labelledby="about-heading">
+  <div class="container about-inner">
+    <p class="eyebrow">About Me</p>
+    <h2 id="about-heading">A brief introduction</h2>
+    <p>Use this space for a concise bio: who you are, what you write about, where your work has appeared, and what kinds of assignments or collaborations you are open to.</p>
+    <p>Keep it warm and specific. Mention a few recurring interests, your current location if relevant, and a professional contact route.</p>
+  </div>
+</section>

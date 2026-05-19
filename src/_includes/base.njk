@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if title %}{{ title }} | {% endif %}{{ site.name }}</title>
+    <meta name="description" content="{{ description or site.description }}">
+    <meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ site.name }}">
+    <meta property="og:description" content="{{ description or site.description }}">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="{{ '/css/styles.css' | url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="site-title" href="{{ '/' | url }}">{{ site.name }}</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="{{ '/' | url }}#writing">Writing</a>
+          <a href="{{ '/' | url }}#about">About</a>
+          <a href="mailto:{{ site.email }}">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      {{ content | safe }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; {{ site.author }}. All rights reserved.</p>
+        <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

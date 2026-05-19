@@ -1,0 +1,20 @@
+---
+layout: base.njk
+title: All articles
+description: A simple index of every article.
+---
+<div class="container">
+  <br><br>
+  <div class="section-heading">
+    <p class="eyebrow">Writing Portfolio</p>
+    <h2>All articles</h2>
+  </div>
+
+  <ul class="all-articles">
+    {% for article in articles %}
+    <li>
+      <a href="{{ article.link }}" target="_blank" rel="noopener noreferrer">{{ article.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
