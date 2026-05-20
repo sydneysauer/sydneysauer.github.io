@@ -1,6 +1,7 @@
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/images": "images" });
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
+  eleventyConfig.addPassthroughCopy({ "src/.nojekyll": ".nojekyll" });
 
   eleventyConfig.addFilter("readableDate", (dateString) => {
     return new Date(dateString).toLocaleDateString("en", {
