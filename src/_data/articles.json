@@ -1,12 +1,66 @@
 [
 {
+"title": "Finish Stronger Podcast",
+"blurb": "Meet the pioneering women who fought for access to the sport of running in this three-episode audio documentary.",
+"publicationDate": "2026-10-10",
+"outlet": "Boston 10K for Women",
+"photo": "/images/b10kw.jpg",
+"link": "https://open.spotify.com/show/6EP8ln9NuqpWmLQiGGEem7",
+"status": "featured"
+},
+{
+"title": "What Makes a 'Worthy' Immigrant?",
+"blurb": "Combining data from a hundred studies, a new Harvard-led paper examines which newcomers are viewed most favorably in host countries around the world.",
+"publicationDate": "2026-09-16",
+"outlet": "Harvard University",
+"photo": "/images/faces.jpg",
+"link": "https://gsas.harvard.edu/news/what-makes-worthy-immigrant",
+"status": "hidden"
+},
+{
+"title": "South America’s Drug Supply Is Rapidly Becoming More Synthetic",
+"blurb": "South American drug markets take a potentially dangerous turn—and harm reduction infrastructure lags.",
+"publicationDate": "2026-07-23",
+"outlet": "Filter",
+"photo": "/images/brazil.jpg",
+"link": "https://filtermag.org/south-america-drug-supply-synthetic/",
+"status": "hidden"
+},
+{
+"title": "UK Stimulant Pipe Program Tracks the Risks of Homemade Options",
+"blurb": "New research suggests that homemade smoking devices contribute greatly to the respiratory harms of drug use.",
+"publicationDate": "2026-06-23",
+"outlet": "Filter",
+"photo": "/images/pipes.png",
+"link": "https://filtermag.org/uk-stimulant-pipe-program-tracks-the-risks-of-homemade-options/",
+"status": "hidden"
+},
+{
+"title": "Appalachians Want to Use Mobile Syringe Programs, If They’re Discreet",
+"blurb": "In rural communities, distance prevents many people from accessing harm reduction services. Mobile syringe service programs offer a solution.",
+"publicationDate": "2026-06-02",
+"outlet": "Filter",
+"photo": "/images/appalachia.png",
+"link": "https://filtermag.org/appalachian-mobile-syringe-programs/",
+"status": "hidden"
+},
+{
+"title": "Between Slavery and Liberty",
+"blurb": "America’s founders and earliest citizens struggled to put revolutionary ideas of freedom and democracy into practice. What can this teach us 250 years later?",
+"publicationDate": "2026-08-03",
+"outlet": "Harvard University",
+"photo": "/images/slavery.png",
+"link": "https://gsas.harvard.edu/news/between-slavery-and-liberty",
+"status": "displayed"
+},
+{
 "title": "Why Is Autism More Common in Males?",
 "blurb": "Harvard researcher Maya Talukdar argues that X chromosome genes reduce female risk for autism and potentially protect against other developmental disorders.",
 "publicationDate": "2026-03-27",
 "outlet": "Harvard University",
 "photo": "/images/autism.jpg",
 "link": "https://gsas.harvard.edu/news/why-autism-more-common-males",
-"status": "featured"
+"status": "hidden"
 },
 {
 "title": "Primary Care “Opioid Risk Scores” Poorly Predict Individual OD Risk",
@@ -15,7 +69,7 @@
 "outlet":"Filter",
 "photo": "/images/risk_score.png",
 "link": "https://filtermag.org/ai-opioid-risk-score-evaluation/",
-"status": "displayed"
+"status": "hidden"
 },
 {
 "title": "Fighting Breast Cancer in Rural America",
@@ -24,7 +78,7 @@
 "outlet": "Harvard University",
 "photo": "/images/wapato.jpg",
 "link": "https://gsas.harvard.edu/news/redefining-rurality",
-"status": "displayed"
+"status": "hidden"
 },
 {
 "title": "Partnering With Methadone Clinics Transforms Hep C Care, Study Finds",
@@ -33,7 +87,7 @@
 "outlet": "Filter",
 "photo": "/images/hepc.png",
 "link": "https://filtermag.org/hepatitis-c-opioid-treatment-programs/",
-"status": "displayed"
+"status": "hidden"
 },
 {
 "title": "Campus Harm Reduction Fueled by Student Advocacy, Some State Policies",
@@ -42,7 +96,7 @@
 "outlet": "Filter",
 "photo": "/images/campus.png",
 "link": "https://filtermag.org/campus-harm-reduction/",
-"status": "displayed"
+"status": "hidden"
 },
 {
 "title": "Discontinued Canadian Safe Supply Program Was Working, Study Shows",
